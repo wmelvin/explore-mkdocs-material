@@ -1,5 +1,7 @@
 # Stuff
 
+[Setting up the footer - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#setting-up-the-footer)
+
 ## More stuff
 
 Feeling stuffy?
@@ -22,10 +24,18 @@ uv venv
 ``` bash
 pipx install uv
 mkdir explore-mkdocs-material
-cd explore-mkdocs-material
+cd explore-mkdocs-material/
 uv venv
-source .venv/bin/activate
+. .venv/bin/activate
+uv pip install mkdocs-material
+uv pip freeze | uv pip compile - -o requirements.txt
+code .
+mkdocs new .
+mkdocs serve
 ```
+
+Note: Also exploring [uv](https://github.com/astral-sh/uv).
+
 
 ### Python code block
 
