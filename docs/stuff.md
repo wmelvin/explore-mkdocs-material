@@ -2,6 +2,8 @@
 
 [Setting up the footer - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#setting-up-the-footer)
 
+[Setting up navigation - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#sticky-navigation-tabs)
+
 ## More stuff
 
 Feeling stuffy?
