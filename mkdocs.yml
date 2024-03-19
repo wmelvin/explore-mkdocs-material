@@ -26,3 +26,9 @@ theme:
       primary: brown
       accent: lime
 
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/wmelvin'
+
+copyright: '&copy; 2024 Bill Melvin'
